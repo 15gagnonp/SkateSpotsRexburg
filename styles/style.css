@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Kdam+Thmor+Pro&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bebas+Neue&family=Kdam+Thmor+Pro&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bebas+Neue&family=Kdam+Thmor+Pro&family=Noto+Sans:ital@1&family=Poppins:wght@200&display=swap');
+
+
+body {
+    background-color: #ffecd1;
+    font-family: Noto Sans, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body .orange {
+    color: #78290f;
+}
+.logo  {
+    height: 50px;
+    width: 50px;
+}
+header {
+    background-color: #78290f;
+    
+}
+nav {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start; 
+}
+nav a, footer a {
+  display: flex;
+  width: 80%;
+  height: 100%;
+  background-color: #15616d;  
+
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  align-self: center;
+  color: #001524;
+  font-size: 1em;
+  /* border: 1px solid #15616d;
+  border-collapse: collapse; */
+
+}
+#navbutton {
+    display: flex;
+    width: 100px;
+    height: 30px;
+    background-color: #15616d;  
+    color: #001524;
+    text-decoration: none;
+    font-size: 1em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    text-align: center;
+    border: 1px solid #78290f;
+    margin-left: 46%;
+    margin-bottom: 40px;
+    margin-top: 30px;
+
+}
+
+#navbutton:hover {
+    color: #15616d;
+    background-color: #ff7d00;
+  }
+
+nav a:hover, footer a:hover {
+    background-color: #ff7d00;
+    color: #15616d;
+}
+.home-grid form {
+    color: #001524;
+}
+.home-grid .rexburgwelcome p {
+    color: #001524;
+    font-size: 1em;
+}
+.home-grid .orange {
+    text-align: center;
+}
+.home-grid { 
+    display: grid;
+    width: 80%;
+    height: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 4fr;
+    align-items: center;
+    background-color: #ffecd1;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    column-gap: 10%;
+}
+
+.share-grid {
+    height: 100%;
+    width: 100%;
+    display: block;
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding-top: 50%;
+    grid-template-rows: 1fr 1fr;
+}
+
+.rexburgwelcome {
+    height: auto;
+    width: auto;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding-right: 100px;
+    
+}
+.rexburgimg {
+    width: 100%;
+    height: 60%;
+}
+
+.button {
+    width: 250px;
+    height: 50px;
+    color: #001524;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 5px;
+    background-color: #15616d;
+    border: 4px solid #78290f;
+    font-size: 1.5em;
+}
+.button:hover {
+    background-color: #ff7d00;
+}
+
+/************************************** Spots page styling **************************************/
+.spots-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    text-align: center;
+    border: 5px solid #78290f;
+    grid-gap: 30px;
+    margin-top: 20px;
+}
+
+.spot {
+    /*border: 3px solid #A1C181;*/
+    padding: 10px;
+    margin-bottom: 50px;
+    height: auto;
+}
+.spot-p {
+    color:#001524 ;
+}
+.spots-img{
+    display: float;
+    float: inline-start;
+    max-height: 300px;
+    max-width: 400px;
+}
+
+#feedback {
+    background-color: #15616d;
+    font-family: Noto Sans, sans-serif;
+    color: #ff7d00;
+    grid-row: 2/3;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;       
+}
+.share-grid label, .share-grid input {
+    display: flex;
+    justify-content: left;
+}
+.share-grid input {
+    background-color: white;
+    color: #001524;
+}
+
+.moveDown {
+    margin-top: 3em;
+}
+.spots-title {
+    color: #78290f;
+    font: 1.7em Kdam Thmor Pro;
+    font-weight: bold;
+
+}
+/************************************** Connect sytling **************************************/
+.connecthome-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    margin: 10%;
+
+}
+
+.connecthome-grid div {
+    text-align: center;
+    color: #619B8A;
+}
+.profilepic {
+    width: 30%;
+    height: auto;
+
+}
+
+/************************************** General Footer styling **************************************/
+footer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #78290f;
+
+}
+footer .left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer .right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .right a {
+    background-color: #78290f;
+}
+
+footer .footertag{
+    color:#001524;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+#instagram, #facebook {
+    height: 2em;
+    width: 2em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #619B8A; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #15616d;
+    display: block;
+    transition: 0.3s;
+  }
+
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #ff7d00;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+
+  }
