@@ -243,7 +243,7 @@ footer .footertag{
     padding-right: 10px;
 }
 
-/* The side navigation menu */
+/************************ The side navigation menu ******************************/
 .sidenav {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
@@ -251,10 +251,12 @@ footer .footertag{
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: #619B8A; /* Black*/
+    background-color: #78290f;/* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    border: #001524;
+    border-width: 3px;
   }
   
   /* The navigation menu links */
@@ -266,6 +268,13 @@ footer .footertag{
     display: block;
     transition: 0.3s;
   }
+  .sideLink {
+    background-color: #001524;
+    width: 150px;
+    margin-left: 25px;
+    border: #ffecd1;
+  }
+
 
   
   /* When you mouse over the navigation links, change their color */
