@@ -211,7 +211,7 @@ footer {
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-contet: space-between;
     align-items: center;
     background-color: #78290f;
 
@@ -264,22 +264,27 @@ footer .footertag{
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #15616d;
+    color: #ffecd1; 
     display: block;
     transition: 0.3s;
   }
-  .sideLink {
+  #linkContainer {
     background-color: #001524;
-    width: 150px;
-    margin-left: 25px;
+    width: 200px;
+    margin: auto;
+    border-radius: 15px;
+  }
+
+  .sideLink {
     border: #ffecd1;
   }
 
-
   
   /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
-    color: #ff7d00;
+  .sidenav .sideLink:hover {
+    background-color: #ff7d00;
+    color: #001524;
+    border-radius: 15px;
   }
   
   /* Position and style the close button (top right corner) */
